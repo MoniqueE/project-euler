@@ -1,0 +1,57 @@
+ * {
+  margin: 0;
+  padding: 0; /*makes width and height of body full screen*/
+}
+header {
+  text-align: center;
+  height:5em;
+  font-size: 1em;
+  border-bottom: 8px solid #c5d5cb;
+  background-color: #e3e0cf;
+    }
+
+h1 {
+  /*You can use the 3 lines: position, top, and transform below to position anything vertically. In this case the h1 text within the header*/
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Arial;
+  color: #9fa8a3;
+  }
+
+h2 {
+  color: #9fa8a3;
+  text-align: center;
+  padding-bottom: 0.5em;    /*Creates space between problem heading and the text in the paragraph*/
+  }
+
+.container {
+  margin-top: 3em;         /*creates space between the first box and the header*/
+  margin-left: auto;       /*centers element*/
+  margin-right: auto;      /*centers element*/
+  width: 35em;
+  border: 7px solid #c5d5cb;
+  border-radius: 10px;
+  text-align: justify;
+  padding: 1em;           /*creates space around text and heading so that border is not right on top of it*/
+}
+
+input.inputBox {
+  margin-top: 1em;
+}
+
+input.button{
+  background-color: #e3e0cf;
+}
+
+#answerOne {
+  display: inline;
+  margin-top: 5px;
+  }
+
+.result {
+  margin-top: 5px;
+  color: #9fa8a3;
+  font-family: Arial;
+  font-size: 14px;
+}
