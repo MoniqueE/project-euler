@@ -17,7 +17,7 @@ function fibonacci() {
 
     var a = 1;
     var b = 2;
-    var c = 2;
+    var c = 2; //Next value in sequence is 2, temporary value.
     var sum = 0;
     while(c < inputNumber){
       if(c % 2 === 0){
